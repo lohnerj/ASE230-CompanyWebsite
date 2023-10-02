@@ -1,9 +1,10 @@
 <?php
 include('lib/convertjson.php');
-include('lib/convertcsv.php');
+include('lib/csv function.php');
 include('lib/plaintext.php');
 $jsonArray = readJsonFile('../01/data/jsoninfo.json');
 // <?php print_r($jsonArray[0]['GreenRoof']['Applications'][0]['Name']); 
+$csv = readcsv('../01/data/info.csv');
 ?>
 
 <!DOCTYPE html>
@@ -59,15 +60,17 @@ $jsonArray = readJsonFile('../01/data/jsoninfo.json');
     </nav>
     <!-- Navbar End -->
 
-    <!-- Hero Start -->
+    <!-- Awards Start -->
     <section class="hero-3 bg-center position-relative" style="background-image: url(images/hero-3-bg.png);" id="home">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="text-center">
-                        <span class="badge badge-soft-primary mb-4">Professional Landing</span>
-                        <h1 class="font-weight-semibold mb-4 hero-3-title">Professional, Multipurpose Landing Page</h1>
-                        <p class="mb-5 text-muted subtitle w-75 mx-auto">Nemo enim ipsam voluptatem quia voluptas sit aut aspernatur aut fugit sed consequuntur magni dolores nesciunt.</p>
+                        <span class="badge badge-soft-primary mb-4">Awards</span>
+                        <h1 class="font-weight-semibold mb-4 hero-3-title">Awards</h1>
+                        <p class="mb-5 text-muted subtitle w-75 mx-auto"> These are the awards the company has won.</p>
+                        <br />
+                        <ul class="text-muted"><?php print_r($award[0]); ?></p>
 
                         <div>
                             <button type="button" class="btn btn-primary rounded-pill me-2">Sign up for free</button>

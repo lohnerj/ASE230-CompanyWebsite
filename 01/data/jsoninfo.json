@@ -1,0 +1,82 @@
+[
+    {
+        "GreenRoof": {
+          "Description": "A modular green roofing system that utilizes smart sensors to regulate water, sunlight, and nutrients, allowing urban spaces to contribute positively to the environment.",
+          "Applications": [
+            {
+              "Name": "Smart Irrigation",
+              "Description": "The system detects soil moisture levels and provides optimal water quantities, reducing wastage and ensuring plant health."
+            },
+            {
+              "Name": "Pollinator Patches",
+              "Description": "Specific sections within the GreenRoof™ are designed to attract and support urban pollinators like bees and butterflies."
+            },
+            {
+              "Name": "Air Purification Zones",
+              "Description": "Incorporates certain plants known to absorb pollutants, promoting cleaner urban air and combating the urban heat island effect."
+            }
+          ]
+        }
+      },
+      {
+        "PureStream Filters": {
+          "Description": "Bio-engineered filters that harness the power of specific bacteria andplants to purify water without chemicals, making potable water accessible and sustainable.",
+          "Applications": [
+            {
+              "Name": "Microbial Cleansing",
+              "Description": "Harnesses beneficial bacteria to break down harmful pathogens, ensuring water purity without chemical residues."
+            },
+            {
+              "Name": "Floating Gardens",
+              "Description": " Aesthetically pleasing modules that float on water surfaces, removing heavy metals and other toxins using specific wetland plants"
+            },
+            {
+              "Name": "Portable Units",
+              "Description": " Compact, travel-friendly variants designed for trekkers and campers, ensuring access to clean water even in remote areas."
+            }
+          ]
+        }
+      },
+      {
+        "TerraCharge": {
+          "Description": ": Pathways made with special tiles that convert foot traffic into usable energy, illuminating pathways at night or powering nearby amenities",
+          "Applications": [
+            {
+              "Name": "Energy Storage",
+              "Description": "Surplus energy from foot traffic during the day is stored in sleek, underground batteries, allowing extended use after dark."
+            },
+            {
+              "Name": "Intelligent Lighting",
+              "Description": "The stored energy powers adaptive lighting systems that adjust based on ambient light and movement, ensuring pathways are well-lit without unnecessary energy consumption."
+            },
+            {
+              "Name": "Interactive Displays",
+              "Description": "Some TerraCharge™ pathways feature interactive elements like ground-projected games or information graphics, all powered by pedestrian movement."
+            }
+          ]
+        }
+      },
+      {
+        "EcoLearn Hub": {
+          "Description": ": A digital platform offering educational courses on sustainable living, organic farming, and eco-technology innovations.",
+          "Applications": [
+            {
+              "Name": "DIY Workshops",
+              "Description": " Practical sessions teaching users how to upcycle waste, create home gardens, or even set up solar panels."
+            },
+            {
+              "Name": "Children's Series",
+              "Description": "Tailored courses introducing children to nature conservation, renewable energy, and the importance of biodiversity."
+            },
+            {
+              "Name": "Global Webinars",
+              "Description": "Regular online sessions featuring guest experts in fields like permaculture, green architecture, and sustainable transportation. These webinars foster a community of eco-enthusiasts and offer the latest in green innovations."
+            }
+          ]
+        }
+      }
+      
+      
+      
+      
+]

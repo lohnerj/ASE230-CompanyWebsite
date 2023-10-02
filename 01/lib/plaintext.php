@@ -21,7 +21,7 @@ function readTextFile($filename) {
     return $lines;
 }
 
-$filename = 'C:\Users\vrnra\OneDrive\Desktop\Git\project\ASE230-Team-Website\plaintext.txt'; 
+$filename = '../01/data/plaintext.txt'; 
 $data = readTextFile($filename);
 
 foreach ($data as $line) {

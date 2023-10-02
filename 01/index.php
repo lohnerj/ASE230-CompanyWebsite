@@ -1,8 +1,8 @@
 <?php
 include('lib/convertjson.php');
 include('lib/convertcsv.php');
-include('lib/plaintxt.php');
-$jsonArray = readJsonFile('C:\xampp\htdocs\ASE230-CompanyWebsite\01\data\jsoninfo.json');
+include('lib/plaintext.php');
+$jsonArray = readJsonFile('../01/data/jsoninfo.json');
 // <?php print_r($jsonArray[0]['GreenRoof']['Applications'][0]['Name']); 
 ?>
 

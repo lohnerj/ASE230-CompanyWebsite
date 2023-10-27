@@ -4,7 +4,7 @@ include('lib/csv function.php');
 include('lib/plaintext.php');
 $jsonArray = readJsonFile('../01/data/jsoninfo.json');
 // <?php print_r($jsonArray[0]['GreenRoof']['Applications'][0]['Name']); 
-$csv = readcsv('../01/data/info.csv');
+$csvArray = readCSVFile('../01/data/info.csv');
 ?>
 
 <!DOCTYPE html>

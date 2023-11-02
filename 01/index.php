@@ -1,10 +1,11 @@
 <?php
 include('lib/convertjson.php');
-include('lib/csv function.php');
 include('lib/plaintext.php');
+include('lib/convertcsv.php');
 $jsonArray = readJsonFile('../01/data/jsoninfo.json');
+$csvArray = readCSVFile('../01/data/csvinfo.csv')
 // <?php print_r($jsonArray[0]['GreenRoof']['Applications'][0]['Name']); 
-$csvArray = readCSVFile('../01/data/info.csv');
+
 ?>
 
 <!DOCTYPE html>
@@ -50,52 +51,24 @@ $csvArray = readCSVFile('../01/data/info.csv');
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto navbar-center" id="navbar-navlist">
 
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link">Contact Us</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
         <!-- end container -->
     </nav>
     <!-- Navbar End -->
+   
+    
 
-    <!-- Awards Start -->
-    <section class="hero-3 bg-center position-relative" style="background-image: url(images/hero-3-bg.png);" id="home">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center">
-                        <span class="badge badge-soft-primary mb-4">Awards</span>
-                        <h1 class="font-weight-semibold mb-4 hero-3-title">Awards</h1>
-                        <p class="mb-5 text-muted subtitle w-75 mx-auto"> These are the awards the company has won.</p>
-                        <br />
-                        <ul class="text-muted"><?php print_r($award[0]); ?></p>
-
-                        <div>
-                            <button type="button" class="btn btn-primary rounded-pill me-2">Sign up for free</button>
-                            <button type="button" class="btn btn-light rounded-pill me-2" data-bs-toggle="modal" data-bs-target="#watchvideomodal">Play video <i class="ms-1 icon-sm align-middle" data-feather="play-circle"></i></button>
-                        </div>
-
-                        <!-- Modal -->
-                        <div class="modal fade bd-example-modal-lg" id="watchvideomodal" data-keyboard="false" tabindex="-1" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
-                                <div class="modal-content hero-modal-0 bg-transparent">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    <video id="VisaChipCardVideo" class="w-100" controls="">
-                                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                        <!--Browser does not support <video> tag -->
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div>
-    </section>
-    <!-- Hero End -->
-
+    <div class="row justify-content-center mb-5">
+                <div class="col-lg-7 text-center">
+                    <h2 class="fw-bold">Awards</h2>
+                    <p class="text-muted"> <?php echo $csvArray[0][0];?></p>
+                    <p class="text-muted"> <?php echo $csvArray[0][1];?></p>
+                    
+                </div>
+            </div>
     <!-- Services start -->
     <section class="section" id="services">
         <div class="container">
